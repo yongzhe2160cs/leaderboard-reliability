@@ -158,3 +158,7 @@ references** — Wilson tables and R's `p.adjust` for BH/Holm.
 ## License
 
 MIT — see [LICENSE](LICENSE).
+
+---
+
+*`leaderboard-ci` is part of a statistical-rigor-for-AI-evals toolkit: [deltagate](https://github.com/yongzhe2160cs/eval-reliability) (paired-delta validation for eval comparisons), [agentrel](https://github.com/yongzhe2160cs/agent-eval-reliability) (reliability stats for stochastic agent evals), [calibstats](https://github.com/yongzhe2160cs/calibration-toolkit) (calibration metrics with confidence intervals). Full portfolio: [github.com/yongzhe2160cs](https://github.com/yongzhe2160cs).*
