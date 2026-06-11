@@ -1,0 +1,52 @@
+[project]
+name = "leaderboard-ci"
+version = "0.1.0"
+description = "Re-rank public LLM leaderboards with confidence intervals, pairwise significance, and statistical tie groups — because most leaderboard gaps are noise."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+authors = [{ name = "yongzhe2160cs" }]
+keywords = ["llm", "benchmark", "leaderboard", "statistics", "confidence-interval", "evaluation"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+]
+dependencies = [
+    "numpy>=1.24",
+    "pandas>=2.0",
+]
+
+[project.optional-dependencies]
+app = ["streamlit>=1.30", "plotly>=5.18"]
+dev = ["pytest>=8.0", "ruff>=0.6", "streamlit>=1.30", "plotly>=5.18"]
+
+[project.scripts]
+leaderboard-ci = "leaderboard_ci.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/yongzhe2160cs/leaderboard-reliability"
+Repository = "https://github.com/yongzhe2160cs/leaderboard-reliability"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/leaderboard_ci"]
+
+[tool.hatch.build.targets.wheel.force-include]
+"src/leaderboard_ci/data" = "leaderboard_ci/data"
+
+[tool.ruff]
+line-length = 100
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "W"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

@@ -1,0 +1,20 @@
+model,benchmark,score,n_samples,stderr,source,source_url
+Claude Mythos Preview,GPQA Diamond,94.6,198,,Artificial Analysis leaderboard (2026),https://artificialanalysis.ai/evaluations/gpqa-diamond
+Gemini 3.1 Pro,GPQA Diamond,94.3,198,,Artificial Analysis leaderboard (2026),https://artificialanalysis.ai/evaluations/gpqa-diamond
+Claude Opus 4.7,GPQA Diamond,94.2,198,,Artificial Analysis leaderboard (2026),https://artificialanalysis.ai/evaluations/gpqa-diamond
+Gemini 3.1 Pro Preview,GPQA Diamond,94.1,198,,Artificial Analysis leaderboard (2026),https://artificialanalysis.ai/evaluations/gpqa-diamond
+GPT-5.4 (xhigh),GPQA Diamond,92.0,198,,Artificial Analysis leaderboard (2026),https://artificialanalysis.ai/evaluations/gpqa-diamond
+o1,GPQA Diamond,78.0,198,,OpenAI o1 system card (2024),https://openai.com/index/openai-o1-system-card/
+Claude 3.5 Sonnet,GPQA Diamond,59.4,198,,Anthropic Claude 3.5 Sonnet (2024),https://www.anthropic.com/news/claude-3-5-sonnet
+GPT-4o,GPQA Diamond,53.6,198,,OpenAI GPT-4o report (2024),https://openai.com/index/hello-gpt-4o/
+o1,HumanEval,92.4,164,,Vendor technical report (2024),https://paperswithcode.com/sota/code-generation-on-humaneval
+Claude 3.5 Sonnet,HumanEval,92.0,164,,Vendor technical report (2024),https://paperswithcode.com/sota/code-generation-on-humaneval
+GPT-4o,HumanEval,90.2,164,,Vendor technical report (2024),https://paperswithcode.com/sota/code-generation-on-humaneval
+Gemini 1.5 Pro,HumanEval,84.1,164,,Vendor technical report (2024),https://paperswithcode.com/sota/code-generation-on-humaneval
+GPT-4o,MMLU,88.7,14042,,Vendor technical report (2024),https://paperswithcode.com/sota/multi-task-language-understanding-on-mmlu
+Claude 3.5 Sonnet,MMLU,88.7,14042,,Vendor technical report (2024),https://paperswithcode.com/sota/multi-task-language-understanding-on-mmlu
+Llama 3.1 405B,MMLU,88.6,14042,,Meta Llama 3.1 report (2024),https://ai.meta.com/blog/meta-llama-3-1/
+Gemini 1.5 Pro,MMLU,85.9,14042,,Vendor technical report (2024),https://paperswithcode.com/sota/multi-task-language-understanding-on-mmlu
+o1,MATH-500,94.8,500,,OpenAI o1 system card (2024),https://openai.com/index/openai-o1-system-card/
+Claude 3.5 Sonnet,MATH-500,78.3,500,,Vendor technical report (2024),https://paperswithcode.com/sota/math-word-problem-solving-on-math
+GPT-4o,MATH-500,76.6,500,,Vendor technical report (2024),https://paperswithcode.com/sota/math-word-problem-solving-on-math
